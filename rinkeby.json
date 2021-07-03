@@ -77,6 +77,33 @@
             "logo": "https://raw.githubusercontent.com/rperez89/dao-list-test/master/assets/GardensTest2/logo.undefined",
             "logo_type": "https://raw.githubusercontent.com/rperez89/dao-list-test/master/src/assets/GardensTest2/logo_type.png",
             "token_logo": "https://raw.githubusercontent.com/rperez89/dao-list-test/master/src/assets/GardensTest2/token_logo.png"
+        },
+        {
+            "name": "Test3",
+            "description": "this is another test!",
+            "forum": "www.forum.com",
+            "links": {
+                "documentation": [
+                    [
+                        "www.llll.com",
+                        "label"
+                    ]
+                ],
+                "community": [
+                    [
+                        "www.aaa.com",
+                        "aaa"
+                    ],
+                    [
+                        "www.bbb.com",
+                        "bbb"
+                    ]
+                ]
+            },
+            "type": 0,
+            "logo": "https://raw.githubusercontent.com/rperez89/dao-list-test/master/assets/Test3/logo.undefined",
+            "logo_type": "https://raw.githubusercontent.com/rperez89/dao-list-test/master/src/assets/Test3/logo_type.png",
+            "token_logo": "https://raw.githubusercontent.com/rperez89/dao-list-test/master/src/assets/Test3/token_logo.png"
         }
     ]
 }
