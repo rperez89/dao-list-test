@@ -50,6 +50,33 @@
                     }
                 ]
             }
+        },
+        {
+            "name": "GardensTest2",
+            "description": "this is another test",
+            "forum": "www.forum.com",
+            "links": {
+                "documentation": [
+                    [
+                        "www.documentation.com",
+                        "doc"
+                    ]
+                ],
+                "community": [
+                    [
+                        "www.link.com",
+                        "community"
+                    ],
+                    [
+                        "www.community2.com",
+                        "comm2"
+                    ]
+                ]
+            },
+            "type": 0,
+            "logo": "https://raw.githubusercontent.com/rperez89/dao-list-test/master/assets/GardensTest2/logo.undefined",
+            "logo_type": "https://raw.githubusercontent.com/rperez89/dao-list-test/master/src/assets/GardensTest2/logo_type.png",
+            "token_logo": "https://raw.githubusercontent.com/rperez89/dao-list-test/master/src/assets/GardensTest2/token_logo.png"
         }
-     ]
+    ]
 }
