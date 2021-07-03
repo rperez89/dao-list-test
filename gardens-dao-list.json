@@ -53,6 +53,34 @@
         },
         {
             "address": "HOLAAAAAA!!!!"
+        },
+        {
+            "name": "Test",
+            "description": "this is a test garden",
+            "logo": "https://raw.githubusercontent.com/1Hive/dao-list/master/src/assets/Test/logo.png",
+            "logotype": "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",
+            "token_logo": "https://raw.githubusercontent.com/1Hive/dao-list/master/src/assets/Test/token_logo.png",
+            "forum": "",
+            "links": {
+                "documentation": [
+                    [
+                        "www.documentation.com",
+                        "doc"
+                    ]
+                ],
+                "community": [
+                    [
+                        "www.community.com",
+                        "com"
+                    ],
+                    [
+                        "www.test.com",
+                        "test"
+                    ]
+                ]
+            },
+            "type": 0,
+            "logo_type": "https://raw.githubusercontent.com/1Hive/dao-list/master/src/assets/Test/logo_type.png"
         }
     ]
 }
