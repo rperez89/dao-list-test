@@ -131,6 +131,29 @@
             "logo": "https://raw.githubusercontent.com/rperez89/dao-list-test/master/assets/Test4/logo.undefined",
             "logo_type": "https://raw.githubusercontent.com/rperez89/dao-list-test/master/src/assets/Test4/logo_type.png",
             "token_logo": "https://raw.githubusercontent.com/rperez89/dao-list-test/master/src/assets/Test4/token_logo.png"
+        },
+        {
+            "name": "Test5",
+            "description": "this is a test!",
+            "forum": "www.forum.com",
+            "links": {
+                "documentation": [
+                    [
+                        "www.ddd.com",
+                        "ddd"
+                    ]
+                ],
+                "community": [
+                    [
+                        "www.aa.com",
+                        "aaa"
+                    ]
+                ]
+            },
+            "type": 0,
+            "logo": null,
+            "logo_type": "https://raw.githubusercontent.com/rperez89/dao-list-test/master/assets/Test5/logo_type.png",
+            "token_logo": "https://raw.githubusercontent.com/rperez89/dao-list-test/master/assets/Test5/token_logo.png"
         }
     ]
 }
