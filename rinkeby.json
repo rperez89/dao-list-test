@@ -1,190 +1,289 @@
-{
-    "daos": [
-        {
-            "address": "0x8ccbeab14b5ac4a431fffc39f4bec4089020a155",
-            "chainId": 100,
-            "name": "1Hive",
-            "description": "Building and experimenting with decentralized applications and protocols with an effort to build a sustainable and thriving economy around a currency called Honey which is used to influence the direction of the community",
-            "token": {
-                "logo": "https://raw.githubusercontent.com/1Hive/dao-list/master/src/assets/rinkeby/0x7777cd7c9c6d3537244871ac8e73b3cb9710d45a/nativeToken.png"
+[
+    {
+      "address": "0x7777cd7c9c6d3537244871ac8e73b3cb9710d45a",
+      "chainId": 4,
+      "name": "1Hive",
+      "description": "Building and experimenting with decentralized applications and protocols with an effort to build a sustainable and thriving economy around a currency called Honey which is used to influence the direction of the community",
+      "token_logo": "https://raw.githubusercontent.com/1Hive/dao-list-test/master/assets/1Hive/nativeToken.png",
+      "logo": "https://raw.githubusercontent.com/1Hive/dao-list-test/master/assets/1Hive/logo.png",
+      "logo_type": "https://raw.githubusercontent.com/1Hive/dao-list-test/master/assets/1Hive/logo_type.png",
+      "wiki": "https://1hive.gitbook.io/1hive/",
+      "forum":"https://forum.1hive.org/",
+      "links": {
+        "community": [
+          {
+            "label": "Discord",
+            "link": "https://discord.gg/4fm7pgB"
+          },
+          {
+            "label": "Github",
+            "link": "https://github.com/1Hive"
+          },
+          {
+            "label": "Twitter",
+            "link": "https://twitter.com/1HiveOrg"
+          },
+          {
+            "label": "Telegram",
+            "link": "https://t.me/honeyswapdex"
+          },
+          {
+            "label": "Forum",
+            "link": "https://forum.1hive.org/"
+          }
+        ],
+        "documentation": [
+          {
+            "label": "Wiki",
+            "link": "https://wiki.1hive.org/"
+          },
+          {
+            "label": "Bug Bounty",
+            "link": "https://wiki.1hive.org/community/security/bug-bounty"
+          },
+          {
+            "label": "FAQs",
+            "link": "https://wiki.1hive.org/guides/faq"
+          }
+        ]
+      }
+    },
+    {
+      "address": "0x52605d44Ae93Afc4e876cb1FE24aEf91336884Df",
+      "chainId": 4,
+      "name": "BrightDAO",
+      "description": "The BrightDAO intends to contribute to the support, development, engineering, and adoption of the BrightID social identity network.",
+      "wrappableToken": {
+        "logo": "https://raw.githubusercontent.com/1Hive/dao-list-test/master/assets/BrightDAO/BrightLogo.png"
+      },
+      "token": {
+        "logo": "https://raw.githubusercontent.com/1Hive/dao-list-test/master/assets/BrightDAO/BrightWrappedLogo.png"
+      },
+      "logo": "https://raw.githubusercontent.com/1Hive/dao-list-test/master/assets/BrightDAO/BrightLogo.png",
+      "logo_type": "https://raw.githubusercontent.com/1Hive/dao-list-test-test/master/assets/BrightDAO/BrightLogo.png",
+      "wiki": "https://brightid.gitbook.io/brightid/",
+      "links": {
+        "community": [
+          {
+            "label": "Discord",
+            "link": "https://discord.gg/Wx63jaYa2Z"
+          },
+          {
+            "label": "Github",
+            "link": "https://github.com/BrightID"
+          },
+          {
+            "label": "Twitter",
+            "link": "https://twitter.com/BrightIDProject?s=20"
+          }
+        ],
+        "documentation": [
+          {
+            "label": "Wiki",
+            "link": "https://brightid.gitbook.io/brightid/"
+          },
+          {
+            "label": "FAQs",
+            "link": "https://brightid.gitbook.io/brightid/frequently-asked-questions"
+          }
+        ]
+      }
+    },
+    {
+      "address": "0xDA1b46663B5BA949f6213D7c3135080B32AD2295",
+      "chainId": 4,
+      "name": "Giveth",
+      "description": "The Giveth DAO is revolutionizing philanthropy by encouraging, supporting and incentivizing the funding of public goods.",
+      "token_logo": "https://raw.githubusercontent.com/Giveth/giveth-design-assets/master/02-logos/Giveth%20logo/giveth-symbol-logo-purple.png"
+      ,
+      "logo": "https://raw.githubusercontent.com/Giveth/giveth-design-assets/master/02-logos/Giveth%20logo/giveth-symbol-logo-purple.png",
+      "logo_type": "https://raw.githubusercontent.com/Giveth/giveth-design-assets/master/02-logos/Type%20Logos/typelogo-purple.png",
+      "Giveth Docs": "https://docs.giveth.io/",
+      "links": {
+        "community": [
+          {
+            "label": "Discord",
+            "link": "https://discord.gg/FB5vEZ5X"
+          },
+          {
+            "label": "Github",
+            "link": "https://github.com/Giveth/"
+          },
+          {
+            "label": "Twitter",
+            "link": "https://twitter.com/Givethio"
+          },
+          {
+            "label": "Telegram",
+            "link": "https://t.me/Givethio"
+          },
+          {
+            "label": "Giveth.io",
+            "link": "https://giveth.io/"
+          }
+        ],
+        "documentation": [
+          {
+            "label": "Docs",
+            "link": "https://docs.giveth.io/"
+          },
+          {
+            "label": "Medium",
+            "link": "https://medium.com/giveth"
+          },
+          {
+            "label": "FAQs",
+            "link": "https://giveth.io/faq/"
+          } 
+        ]
+      }
+    },
+    {
+      "address": "0x02945Cf2FbCB01119F1B26503b42416b53aF703C",
+      "chainId": 4,
+      "name": "Agave",
+      "description": "Agave rewards depositors with passive income and lets them use their deposits as collateral to borrow and lend digital assets",
+      "wrappableToken": {
+        "logo": "https://raw.githubusercontent.com/1Hive/dao-list-test/master/assets/Agave/logo.png"
+      },
+      "logo": "https://raw.githubusercontent.com/1Hive/dao-list-test/master/assets/Agave/logo.png",
+      "logo_type": "https://raw.githubusercontent.com/1Hive/dao-list-test/master/assets/Agave/logo_type.png",
+      "forum":"https://forum.1hive.org/",
+      "links": {
+        "community": [
+          {
+            "label": "Discord",
+            "link": "https://discord.gg/86eVaKfv2Z"
+          },
+          {
+            "label": "Github",
+            "link": "https://github.com/agave-dao"
+          },
+          {
+            "label": "Twitter",
+            "link": "https://twitter.com/Agave_lending"
+          },
+          {
+            "label": "Telegram",
+            "link": "https://t.me/Agave1Hive"
+          },
+          {
+            "label": "Forum",
+            "link": "https://forum.1hive.org/"
+          }
+        ],
+        "documentation": [
+          {
+            "label": "FAQs",
+            "link": "https://wiki.1hive.org/guides/agave-faq"
+          }
+        ]
+      }
+    },
+    {
+      "address": "0x9B4294Bf467d97B29f7a96489536da2dd14080bf",
+      "chainId": 4,
+      "name": "Beezu",
+      "description": "Exciting NFT battle and breeding game in the context of a DAO.",
+      "logo_type": "https://raw.githubusercontent.com/1Hive/dao-list-test/master/assets/Beezu/logo_type.png",
+      "forum":"https://forum.1hive.org/",
+      "links": {
+        "community": [
+          {
+            "label": "Discord",
+            "link": "https://discord.gg/x5CT2cbMYW"
+          },
+          {
+            "label": "Github",
+            "link": "https://github.com/sand3sh/ksh-react-app"
+          },
+          {
+            "label": "Twitter",
+            "link": "https://twitter.com/beezugame"
+          },
+          {
+            "label": "Forum",
+            "link": "https://forum.1hive.org/"
+          }
+        ],
+        "documentation": []
+      }
+    },
+    {
+        "address": "0x7aDd89Fe0575E305719D81c924B68BfA611E837c",
+        "name": "rLoopDAO",
+        "description": "rLoopDAO is a community-governed organization dedicated to accelerating the research, development, and adoption of new technologies and innovations that address the environmental and natural resource challenges of climate change, energy, water, and food. ",
+        "forum": "https://forum.1hive.org/",
+        "links": {
+          "community": [
+            {
+              "label": "Reddit",
+              "link": "https://www.reddit.com/r/rLoop/"
             },
-            "logo": "https://raw.githubusercontent.com/1Hive/dao-list/master/src/assets/rinkeby/0x7777cd7c9c6d3537244871ac8e73b3cb9710d45a/logo.png",
-            "logo_type": "https://raw.githubusercontent.com/1Hive/dao-list/master/src/assets/rinkeby/0x7777cd7c9c6d3537244871ac8e73b3cb9710d45a/logo_type.png",
-            "wiki": "https://1hive.gitbook.io/1hive/",
-            "forum": "https://forum.1hive.org/",
-            "links": {
-                "community": [
-                    {
-                        "label": "Discord",
-                        "link": "https://discord.gg/4fm7pgB"
-                    },
-                    {
-                        "label": "Github",
-                        "link": "https://github.com/1Hive"
-                    },
-                    {
-                        "label": "Twitter",
-                        "link": "https://twitter.com/1HiveOrg"
-                    },
-                    {
-                        "label": "Telegram",
-                        "link": "https://t.me/honeyswapdex"
-                    },
-                    {
-                        "label": "Forum",
-                        "link": "https://forum.1hive.org/"
-                    }
-                ],
-                "documentation": [
-                    {
-                        "label": "Wiki",
-                        "link": "https://wiki.1hive.org/"
-                    },
-                    {
-                        "label": "Bug Bounty",
-                        "link": "https://wiki.1hive.org/community/security/bug-bounty"
-                    },
-                    {
-                        "label": "FAQs",
-                        "link": "https://wiki.1hive.org/guides/faq"
-                    }
-                ]
+            {
+              "label": "Instagram",
+              "link": "https://www.instagram.com/rloopteam/?hl=en"
+            },
+            {
+              "label": "Twitter",
+              "link": "https://twitter.com/rloopteam"
+            },
+            {
+              "label": "Facebook",
+              "link": "https://www.facebook.com/rloopteam"
             }
-        },
-        {
-            "name": "GardensTest2",
-            "description": "this is another test",
-            "forum": "www.forum.com",
-            "links": {
-                "documentation": [
-                    [
-                        "www.documentation.com",
-                        "doc"
-                    ]
-                ],
-                "community": [
-                    [
-                        "www.link.com",
-                        "community"
-                    ],
-                    [
-                        "www.community2.com",
-                        "comm2"
-                    ]
-                ]
+          ],
+          "documentation": [
+            {
+              "label": "Hyperloop",
+              "link": "https://www.rloop.org/hpod"
             },
-            "type": 0,
-            "logo": "https://raw.githubusercontent.com/rperez89/dao-list-test/master/assets/GardensTest2/logo.undefined",
-            "logo_type": "https://raw.githubusercontent.com/rperez89/dao-list-test/master/src/assets/GardensTest2/logo_type.png",
-            "token_logo": "https://raw.githubusercontent.com/rperez89/dao-list-test/master/src/assets/GardensTest2/token_logo.png"
-        },
-        {
-            "name": "Test3",
-            "description": "this is another test!",
-            "forum": "www.forum.com",
-            "links": {
-                "documentation": [
-                    [
-                        "www.llll.com",
-                        "label"
-                    ]
-                ],
-                "community": [
-                    [
-                        "www.aaa.com",
-                        "aaa"
-                    ],
-                    [
-                        "www.bbb.com",
-                        "bbb"
-                    ]
-                ]
+            {
+              "label": "rFlight",
+              "link": "https://rflight.org"
             },
-            "type": 0,
-            "logo": "https://raw.githubusercontent.com/rperez89/dao-list-test/master/assets/Test3/logo.undefined",
-            "logo_type": "https://raw.githubusercontent.com/rperez89/dao-list-test/master/src/assets/Test3/logo_type.png",
-            "token_logo": "https://raw.githubusercontent.com/rperez89/dao-list-test/master/src/assets/Test3/token_logo.png"
-        },
-        {
-            "name": "Test4",
-            "description": "another test!",
-            "forum": "wwww.forum. om",
-            "links": {
-                "documentation": [
-                    [
-                        "www.doc.com",
-                        "doc"
-                    ]
-                ],
-                "community": [
-                    [
-                        "www.aaa.com",
-                        "aaa"
-                    ],
-                    [
-                        "www.ccc.com",
-                        "ccc"
-                    ]
-                ]
+            {
+              "label": "rBridge",
+              "link": "https://www.rloop.org/rbridge"
             },
-            "type": 0,
-            "logo": "https://raw.githubusercontent.com/rperez89/dao-list-test/master/assets/Test4/logo.undefined",
-            "logo_type": "https://raw.githubusercontent.com/rperez89/dao-list-test/master/src/assets/Test4/logo_type.png",
-            "token_logo": "https://raw.githubusercontent.com/rperez89/dao-list-test/master/src/assets/Test4/token_logo.png"
-        },
-        {
-            "name": "Test5",
-            "description": "this is a test!",
-            "forum": "www.forum.com",
-            "links": {
-                "documentation": [
-                    [
-                        "www.ddd.com",
-                        "ddd"
-                    ]
-                ],
-                "community": [
-                    [
-                        "www.aa.com",
-                        "aaa"
-                    ]
-                ]
+            {
+              "label": "rGlitch",
+              "link": "https://www.rloop.org/rglitch"
             },
-            "type": 0,
-            "logo": null,
-            "logo_type": "https://raw.githubusercontent.com/rperez89/dao-list-test/master/assets/Test5/logo_type.png",
-            "token_logo": "https://raw.githubusercontent.com/rperez89/dao-list-test/master/assets/Test5/token_logo.png"
-        },
-        {
-            "name": "Test6",
-            "description": "this is test 6",
-            "forum": "www.forum.com",
-            "links": {
-                "documentation": [
-                    {
-                        "link": "www.doc1.com",
-                        "label": "doc1"
-                    },
-                    {
-                        "link": "www.doc2.com",
-                        "label": "doc2"
-                    }
-                ],
-                "community": [
-                    {
-                        "link": "www.test.com",
-                        "label": "label1"
-                    },
-                    {
-                        "link": "www.aaa.com",
-                        "label": "label2"
-                    }
-                ]
-            },
-            "type": 0,
-            "logo": null,
-            "logo_type": "https://raw.githubusercontent.com/rperez89/dao-list-test/master/assets/Test6/logo_type.png",
-            "token_logo": "https://raw.githubusercontent.com/rperez89/dao-list-test/master/assets/Test6/token_logo.png"
+            {
+              "label": "Videos",
+              "link": "https://www.rloop.org/videos"
+            }
+          ]
         }
-    ]
-}
+      },
+      {
+        "address": "0x71Cd55481f7B9B4B750bB48fb9D66fCf147Dc72B",
+        "name": "GG DAO",
+        "description": "GUStakes is a community that provide stake on mathces of Gods Unchained",
+        "logo_type": "https://raw.githubusercontent.com/1Hive/dao-list-test/master/assets/GGDAO/logo_type.png",
+        "forum": "https://forum.1hive.org/",
+        "links": {
+          "community": [
+            {
+              "label": "Landing",
+              "link": "https://gustakes.gg"
+            },
+            {
+              "label": "Discord",
+              "link": "https://discord.com/invite/Z7DrrXK3yf"
+            },
+            {
+              "label": "Twitter",
+              "link": "https://twitter.com/gu_stakes"
+            }
+          ],
+          "documentation": [
+            {
+              "label": "Medium",
+              "link": "https://gustakes.medium.com"
+            }
+          ]
+        }
+      }
+]
